@@ -169,3 +169,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# private docs and databases used during development
+databases/*
+!databases/info.txt
+docs_collection/*
+!docs_collection/info.txt

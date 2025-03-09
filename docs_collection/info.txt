@@ -1,0 +1,1 @@
+This folder is the storage space for all the private documents and books, which the user want to be used by RAG.
