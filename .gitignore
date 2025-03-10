@@ -175,3 +175,5 @@ databases/*
 !databases/info.txt
 docs_collection/*
 !docs_collection/info.txt
+logs/*
+!logs/info.txt

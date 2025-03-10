@@ -1,0 +1,22 @@
+{
+    "document_collection_folder_relpath": "../docs_collection",
+    "database_folder_relpath": "../databases",
+    "database":{
+                  "name":"rag.db",
+                  "table_name_documents":"documents",
+                  "table_name_embeddings":"embeddings",
+                  "table_name_faiss_map":"faiss_map",
+                  "faiss_index_fname":"faiss_index.bin"
+                },
+    "processing_parameters":{
+                              "max_pages_fetch":10,
+                              "chunk_window":5,
+                              "chunk_stride":2
+                            },
+    "embedding_model":{
+                        "model_name":"sentence-transformers/all-MiniLM-L6-v2",
+                        "model_device":"cpu",
+                        "embedding_dimension":384,
+                        "batch_size": 32
+                      }
+}
